@@ -1,9 +1,15 @@
 {
   "name": "@yoannchb/langy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Text language detection with ISO 639-1",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest",
     "build": "npm run prettier && npm run lint && npm run fastBuild",
