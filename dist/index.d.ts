@@ -1,8 +1,8 @@
 type Result = {
-    best: string;
-    probabilities: {
-        [lang: string]: number;
-    };
+  best: string;
+  probabilities: {
+    [lang: string]: number;
+  };
 };
 /**
  * Give a sorted list of the detected langage from a text
