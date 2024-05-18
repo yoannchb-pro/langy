@@ -1,2 +1,2 @@
 # langy
-Text langage detection
+Text language detection
