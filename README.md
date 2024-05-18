@@ -1,0 +1,2 @@
+# langy
+Text langage detection
