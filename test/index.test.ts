@@ -27,5 +27,12 @@ describe('Test langy langage detection', () => {
     expect(result.probabilities.en < 1).toBeTruthy();
 
     expect(result.probabilities.en > result.probabilities.fr).toBeTruthy();
+
+    let sum = 0;
+    for (const [, proba] of Object.entries(result.probabilities)) {
+      sum += proba;
+    }
+
+    expect(sum).toBeGreaterThan(0.99);
   });
 });
