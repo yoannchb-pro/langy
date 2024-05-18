@@ -1,6 +1,6 @@
 # langy
 
-Text language detection witth ISO 639-1
+Text language detection with ISO 639-1
 
 ## Install
 
