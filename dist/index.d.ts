@@ -1,7 +1,7 @@
 type Result = {
-    best: string;
-    sortedLangs: string[];
-    probabilities: Record<string, number>;
+  best: string;
+  sortedLangs: string[];
+  probabilities: Record<string, number>;
 };
 /**
  * Give the list of supported languages in ISO639-1 format.
