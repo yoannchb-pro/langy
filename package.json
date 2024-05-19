@@ -1,6 +1,6 @@
 {
   "name": "@yoannchb/langy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Text language detection with ISO 639-1",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -33,7 +33,7 @@
     "url": "https://github.com/yoannchb-pro/langy/issues"
   },
   "homepage": "https://github.com/yoannchb-pro/langy#readme",
-  "dependencies": {
+  "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@types/jest": "^29.5.12",
